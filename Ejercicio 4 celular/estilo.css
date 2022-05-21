@@ -1,0 +1,834 @@
+@media(min-width:1100px){
+    html{
+        display: flex;
+        justify-content: center;
+    }
+    body {
+        width: 1100px;
+        background-color: midnightblue;
+        display: flex;
+        flex-direction: column;
+    }
+    #body{
+        display: flex;
+        flex-direction: row;
+    }
+    #logo{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blueviolet;
+    }
+    nav{
+        width: 800px;
+        height: 200px;
+        background-color: crimson;
+        justify-content: center;
+        display: flex;
+    }
+    ul{
+        width: 700px;
+        height: 150px;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .a{
+        text-decoration: none;
+        color: darkgreen;
+        padding: 15px;
+        /* background-color: goldenrod; */
+        transition: all 0.5s ease 0s;
+        border-radius: 40px;
+    }
+    .a:hover{
+        text-decoration: none;
+        color: royalblue;
+        padding: 20px;
+        background-color: goldenrod;
+        transition: all 0.5s ease 0s;
+        border-radius: 0px;
+    }
+    main{
+        height: 810px;
+        width: 1100px;
+        background-color: salmon;
+        display: flex;
+    }
+    aside{
+        height: 810px;
+        width: 300px;
+        background-color: seagreen;
+    }
+    article{
+        width: 800px;
+        height: 810px;
+        background-color: turquoise;
+    }
+    .art1{
+        width: 760px;
+        height: 250px;
+        padding: 20px;
+        display: flex;
+    }
+    #img1{
+        background-color: violet;
+    }
+    #t1{
+        width: 490px;
+        height: 50px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        font-family: Minecraft;
+    }
+    #inf1{
+        width: 490px;
+        height: 200px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #caja1{
+        width: 760px;
+        height: 250px;
+        background-color: tomato;
+    }
+    .art2{
+        width: 760px;
+        height: 250px;
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    #img2{
+        background-color: violet;
+    }
+    #t2{
+        width: 490px;
+        height: 50px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #inf2{
+        width: 490px;
+        height: 200px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #caja2{
+        width: 760px;
+        height: 250px;
+        background-color: tomato;
+    }
+    .art3{
+        width: 760px;
+        height: 250px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+    }
+    #img3{
+        background-color: violet;
+    }
+    #t3{
+        width: 490px;
+        height: 50px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    #inf3{
+        width: 490px;
+        height: 200px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #caja3{
+        width: 760px;
+        height: 250px;
+        background-color: tomato;
+    }
+    footer{
+        width: 1100px;
+        height: 200px;
+        background-color: navy;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: oldlace;
+    }
+}
+@media (min-width:721px) and (max-width:1099px){
+    html{
+        display: flex;
+        justify-content: center;
+        font-family: cursive;
+    }
+    body {
+        width: 99%;
+        background-color: rebeccapurple;
+        display: flex;
+        flex-direction: column;
+    }
+    #body{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        width: 100%;
+        height: 200px;
+    }
+    #logo{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: blueviolet;
+    }
+    nav{
+        width: 100%;
+        height: 200px;
+        background-color: crimson;
+        justify-content: center;
+        display: flex;
+    }
+    ul{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        list-style: none;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    li{
+        border-bottom: solid 1px darkgreen;
+        width: 99%;
+    }
+    .a{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-decoration: none;
+        color: darkgrey;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 9px;
+        /* background-color: goldenrod; */
+        transition: all 0.5s ease 0s;
+        border-radius: 40px;
+    }
+    .a:hover{
+        text-decoration: none;
+        color: royalblue;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 9px;
+        background-color: goldenrod;
+        transition: all 0.5s ease 0s;
+        border-radius: 0px;
+    }
+    main{
+        height: auto;
+        width: 100%;
+        background-color: salmon;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    aside{
+        height: auto;
+        width: 100%;
+        background-color: seagreen;
+        display: flex;
+        flex-direction: column;
+    }
+    article{
+        width: 100%;
+        height: 810px;
+        background-color: turquoise;
+        height: auto;
+    }
+    .art1{
+        width: 95%;
+        height: 250px;
+        padding: 20px;
+        display: flex;
+    }
+    #img1{
+        background-color: violet;
+    }
+    #t1{
+        width: 95%;
+        height: 50px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        font-family: wght;
+    }
+    #inf1{
+        width: 95%;
+        height: 200px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Lobster;
+    }
+    #caja1{
+        width: 100%;
+        height: 250px;
+        background-color: tomato;
+    }
+    .art2{
+        width: 95%;
+        height: 250px;
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    #img2{
+        background-color: violet;
+    }
+    #t2{
+        width: 95%;
+        height: 50px;
+        margin-left
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    #inf2{
+        width: 95%;
+        height: 200px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Lobster;
+    }
+    #caja2{
+        width: 100%;
+        height: 250px;
+        background-color: tomato;
+    }
+    .art3{
+        width: 95%;
+        height: 250px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        padding-bottom: 20px;
+    }
+    #img3{
+        background-color: violet;
+    }
+    #t3{
+        width: 95%;
+        height: 50px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    #inf3{
+        width: 95%;
+        height: 200px;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Lobster;
+    }
+    #caja3{
+        width: 100%;
+        height: 250px;
+        background-color: tomato;
+    }
+    .anuncio{
+        width: 100%;
+        height: 300px;
+    }
+    footer{
+        width: 100%;
+        height: 200px;
+        background-color: navy;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: oldlace;
+    }
+}
+
+@media (min-width:420px) and (max-width:720px){
+    html{
+        display: flex;
+        justify-content: center;
+        font-family: cursive;
+    }
+    body {
+        width: auto;
+        background-color: rebeccapurple;
+        display: flex;
+        flex-direction: column;
+    }
+    #body{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        width: 100%;
+        height: 200px;
+    }
+    #logo{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: blueviolet;
+    }
+    nav{
+        width: 100%;
+        height: 200px;
+        background-color: crimson;
+        justify-content: center;
+        display: flex;
+    }
+    ul{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        list-style: none;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    li{
+        border-bottom: solid 1px darkgreen;
+        width: 99%;
+    }
+    .a{
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-decoration: none;
+        color: darkgrey;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 9px;
+    /* background-color: goldenrod; */
+        transition: all 0.5s ease 0s;
+        border-radius: 40px;
+    }
+    .a:hover{
+        text-decoration: none;
+        color: royalblue;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 9px;
+        background-color: goldenrod;
+        transition: all 0.5s ease 0s;
+        border-radius: 0px;
+    }
+    main{
+        height: auto;
+        width: auto;
+        background-color: salmon;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    aside{
+        height: auto;
+        width: auto;
+        background-color: seagreen;
+        display: flex;
+        flex-direction: column;
+    }
+    article{
+        width: auto;
+        height: 810px;
+        background-color: turquoise;
+        height: auto;
+    }
+    .art1{
+        width: auto;
+        height: 250px;
+        padding: 20px;
+        display: flex;
+    }
+    #img1{
+        background-color: violet;
+            }
+            #t1{
+                width: auto;
+                height: 50px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                font-family: Minecraft;
+            }
+            #inf1{
+                width: auto;
+                height: 200px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: auto;
+            }
+            #inf1::-webkit-scrollbar {
+                width: 5px;
+            }
+            #inf1::-webkit-scrollbar-thumb {
+                border-radius: 5px;
+            }
+            #caja1{
+                width: auto;
+                height: 250px;
+                background-color: tomato;
+            }
+            .art2{
+                width: auto;
+                height: 250px;
+                display: flex;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+            }
+            #img2{
+                background-color: violet;
+            }
+            #t2{
+                width: auto;
+                height: 50px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                font-family: Minecraft;
+            }
+            #inf2{
+                width: auto;
+                height: 200px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: auto;
+            }
+            #inf2::-webkit-scrollbar {
+                width: 5px;
+            }
+            #inf2::-webkit-scrollbar-thumb {
+                border-radius: 5px;
+            }
+            #caja2{
+                width: auto;
+                height: 250px;
+                background-color: tomato;
+            }
+            .art3{
+                width: auto;
+                height: 250px;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: flex;
+                padding-bottom: 20px;
+            }
+            #img3{
+                background-color: violet;
+            }
+            #t3{
+                width: auto;
+                height: 50px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                font-family: Minecraft;
+            }
+            #inf3{
+                width: auto;
+                height: 200px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: auto;
+            }
+            #inf3::-webkit-scrollbar {
+                width: 5px;
+            }
+            #inf3::-webkit-scrollbar-thumb {
+                border-radius: 5px;
+            }
+            #caja3{
+                width: auto;
+                height: 250px;
+                background-color: tomato;
+            }
+            .anuncio{
+                width: 100%;
+                height: 300px;
+            }
+            footer{
+                width: 100%;
+                height: 200px;
+                background-color: navy;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: oldlace;
+            }
+        }
+        @media (max-width:420px){
+            html{
+                display: flex;
+                justify-content: center;
+                font-family: cursive;
+            }
+            body {
+                width: auto;
+                background-color: rebeccapurple;
+                display: flex;
+                flex-direction: column;
+            }
+            #body{
+                display: flex;
+                flex-direction: column;
+            }
+            header{
+                width: 100%;
+                height: 200px;
+            }
+            #logo{
+                width: 100%;
+                height: 200px;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                background-color: blueviolet;
+            }
+            nav{
+                width: 100%;
+                height: 200px;
+                background-color: crimson;
+                justify-content: center;
+                display: flex;
+            }
+            ul{
+                width: 100%;
+                height: 150px;
+                display: flex;
+                list-style: none;
+                align-items: flex-start;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+            li{
+                border-bottom: solid 1px darkgreen;
+                width: 99%;
+            }
+            .a{
+                margin-right: 15px;
+                margin-bottom: 15px;
+                margin-top: 15px;
+                text-decoration: none;
+                color: darkgrey;
+                padding-left: 9px;
+                padding-right: 9px;
+                padding-top: 9px;
+                /* background-color: goldenrod; */
+                transition: all 0.5s ease 0s;
+                border-radius: 40px;
+            }
+            .a:hover{
+                text-decoration: none;
+                color: royalblue;
+                padding-left: 9px;
+                padding-right: 9px;
+                padding-top: 9px;
+                background-color: goldenrod;
+                transition: all 0.5s ease 0s;
+                border-radius: 0px;
+            }
+            main{
+                height: auto;
+                width: auto;
+                background-color: salmon;
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            aside{
+                height: auto;
+                width: auto;
+                background-color: seagreen;
+                display: flex;
+                flex-direction: column;
+            }
+            article{
+                width: auto;
+                height: 810px;
+                background-color: turquoise;
+                height: auto;
+            }
+            .art1{
+                width: auto;
+                height: 250px;
+                padding: 20px;
+                display: flex;
+            }
+            #img1{
+                background-color: violet;
+            }
+            #img1 > img,
+            #img2 > img,
+            #img3 > img{
+                width: 210px;
+                height: 210px;
+            }
+            #t1{
+                width: auto;
+                height: 50px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                font-family: Minecraft;
+            }
+            #inf1{
+                width: auto;
+                height: 200px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: auto;
+            }
+            #inf1::-webkit-scrollbar {
+                width: 5px;
+            }
+            #inf1::-webkit-scrollbar-thumb {
+                border-radius: 5px;
+            }
+            #caja1{
+                width: auto;
+                height: 250px;
+                background-color: tomato;
+            }
+            .art2{
+                width: auto;
+                height: 250px;
+                display: flex;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+            }
+            #img2{
+                background-color: violet;
+            }
+            #t2{
+                width: auto;
+                height: 50px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                font-family: Minecraft;
+            }
+            #inf2{
+                width: auto;
+                height: 200px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: auto;
+            }
+            #inf2::-webkit-scrollbar {
+                width: 5px;
+            }
+            #inf2::-webkit-scrollbar-thumb {
+                border-radius: 5px;
+            }
+            #caja2{
+                width: auto;
+                height: 250px;
+                background-color: tomato;
+            }
+            .art3{
+                width: auto;
+                height: 250px;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: flex;
+                padding-bottom: 20px;
+            }
+            #img3{
+                background-color: violet;
+            }
+            #t3{
+                width: auto;
+                height: 50px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                font-family: Minecraft;
+            }
+            #inf3{
+                width: auto;
+                height: 200px;
+                margin-left: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: auto;
+            }
+            #inf3::-webkit-scrollbar {
+                width: 5px;
+            }
+            #inf3::-webkit-scrollbar-thumb {
+                border-radius: 5px;
+            }
+            #caja3{
+                width: auto;
+                height: 250px;
+                background-color: tomato;
+            }
+            .anuncio{
+                width: 100%;
+                height: 300px;
+            }
+            footer{
+                width: 100%;
+                height: 200px;
+                background-color: navy;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: oldlace;
+            }
+        }
+        
+        
+        
